@@ -1,0 +1,10 @@
+name: ECE5290-HW4-cpu
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly

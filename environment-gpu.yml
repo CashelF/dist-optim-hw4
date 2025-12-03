@@ -1,0 +1,11 @@
+name: ECE5290-HW4-gpu
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch::pytorch[cuda]
